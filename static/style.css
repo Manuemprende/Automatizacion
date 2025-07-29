@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+    min-height: 100vh;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #0d6efd, #6610f2);
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #6610f2;
+    border-color: #6610f2;
+}

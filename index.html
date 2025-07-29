@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Moderna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<div class="container py-5">
+    <header class="d-flex align-items-center justify-content-between mb-4 p-3 bg-gradient rounded text-white shadow">
+        <div class="d-flex align-items-center">
+            <img src="static/logo.svg" alt="Logo" class="logo me-3">
+            <h1 class="h3 mb-0">Barbería Moderna</h1>
+        </div>
+    </header>
+
+    <section id="services" class="mb-4 card p-4 shadow-sm">
+        <h2>Tipos de cortes</h2>
+        <table class="table table-striped" id="haircutTable">
+            <thead><tr><th>Corte</th><th>Precio</th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <section id="scheduler" class="mb-4 card p-4 shadow-sm">
+        <h2>Agendar cita</h2>
+        <form id="appointmentForm" class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Nombre del cliente</label>
+                <input type="text" id="clientName" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Tipo de corte</label>
+                <select id="haircutSelect" class="form-select" required></select>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">Fecha</label>
+                <input type="date" id="dateInput" class="form-control" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">Hora</label>
+                <input type="time" id="timeInput" class="form-control" required>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Agendar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="appointments" class="card p-4 shadow-sm">
+        <h2>Calendario de citas</h2>
+        <table class="table table-bordered" id="appointmentTable">
+            <thead><tr><th>Cliente</th><th>Corte</th><th>Fecha</th><th>Hora</th><th>Acciones</th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="static/script.js"></script>
+</body>
+</html>
