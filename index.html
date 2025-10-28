@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faja Body Short | Pago Contra Entrega</title>
+    <meta
+      name="description"
+      content="Faja body short reductora con pago contra entrega. Moldea cintura, levanta glúteos y obtén envío express pagando al recibir."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-banner" role="banner">
+      <p>🚚 Envío express 24-72h · 💵 Paga cuando recibes · 🔄 Cambios gratis 60 días</p>
+    </header>
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar__inner container">
+        <a class="navbar__brand" href="#inicio" aria-label="Universal Shoop">
+          <span class="navbar__logo">Universal Shoop</span>
+          <span class="navbar__tag">Shapewear Premium</span>
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#prueba">Resultados</a></li>
+          <li><a href="#pedido">Pedido COD</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <button class="btn btn--primary" id="nav-cta">Pedir ahora</button>
+      </div>
+    </nav>
+
+    <main id="inicio">
+      <section class="section hero" aria-labelledby="producto-titulo">
+        <div class="container hero__layout">
+          <div class="hero__media">
+            <div class="hero__badges">
+              <span class="badge badge--primary">TOP VENTAS 2024</span>
+              <span class="badge badge--ghost">+12.700 clientas felices</span>
+            </div>
+            <div class="hero__gallery" aria-label="Galería principal del producto">
+              <figure class="hero__frame hero__frame--primary">
+                <div class="hero__glow" aria-hidden="true"></div>
+                <picture>
+                  <source
+                    data-role="main-desktop"
+                    media="(min-width: 768px)"
+                    srcset="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1800"
+                    type="image/jpeg"
+                  />
+                  <source
+                    data-role="main-mobile"
+                    media="(max-width: 767px)"
+                    srcset="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=900"
+                    type="image/jpeg"
+                  />
+                  <img
+                    id="main-image"
+                    src="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                    alt="Modelo luciendo la faja body short en color canela"
+                    loading="eager"
+                  />
+                </picture>
+              </figure>
+              <div class="hero__stack">
+                <figure class="hero__frame hero__frame--secondary">
+                  <img
+                    src="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=800"
+                    alt="Perfil lateral resaltando la compresión 360°"
+                    loading="lazy"
+                  />
+                </figure>
+                <figure class="hero__frame hero__frame--secondary">
+                  <img
+                    src="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=800"
+                    alt="Vista trasera con realce de glúteos"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="hero__thumbs" aria-label="Selector de imágenes">
+              <button
+                class="thumb is-active"
+                type="button"
+                data-image="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                data-desktop="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1800"
+                data-mobile="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=900"
+                data-alt="Modelo luciendo la faja body short en color canela"
+              >
+                <span class="thumb__media">
+                  <img
+                    src="https://images.pexels.com/photos/6311594/pexels-photo-6311594.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=220"
+                    alt="Vista frontal de la faja"
+                    loading="lazy"
+                  />
+                </span>
+                <span class="thumb__label">Frente</span>
+              </button>
+              <button
+                class="thumb"
+                type="button"
+                data-image="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                data-desktop="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1800"
+                data-mobile="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=900"
+                data-alt="Detalle lateral de la faja mostrando control abdominal"
+              >
+                <span class="thumb__media">
+                  <img
+                    src="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=220"
+                    alt="Vista lateral de la faja"
+                    loading="lazy"
+                  />
+                </span>
+                <span class="thumb__label">Perfil</span>
+              </button>
+              <button
+                class="thumb"
+                type="button"
+                data-image="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                data-desktop="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1800"
+                data-mobile="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=900"
+                data-alt="Vista trasera destacando realce natural de glúteos"
+              >
+                <span class="thumb__media">
+                  <img
+                    src="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=220"
+                    alt="Vista trasera de la faja"
+                    loading="lazy"
+                  />
+                </span>
+                <span class="thumb__label">Espalda</span>
+              </button>
+              <button
+                class="thumb"
+                type="button"
+                data-image="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                data-desktop="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1800"
+                data-mobile="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=900"
+                data-alt="La faja bajo un vestido ajustado sin marcar la ropa"
+              >
+                <span class="thumb__media">
+                  <img
+                    src="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=220"
+                    alt="La faja invisible bajo vestido"
+                    loading="lazy"
+                  />
+                </span>
+                <span class="thumb__label">Invisible</span>
+              </button>
+            </div>
+            <div class="hero__trust">
+              <div>
+                <span>🛡️</span>
+                <p>Garantía de satisfacción 30 días</p>
+              </div>
+              <div>
+                <span>📞</span>
+                <p>Asesoras en vivo vía WhatsApp</p>
+              </div>
+              <div>
+                <span>🏷️</span>
+                <p>Oferta especial solo por hoy</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="order-card" aria-label="Formulario rápido pago contra entrega">
+            <p class="order-card__flag">Pago contra entrega disponible en todo el país</p>
+            <h1 id="producto-titulo">Faja Body Short Esculpidora</h1>
+            <p class="order-card__subtitle">
+              Reduce hasta 2 tallas al instante con compresión inteligente, realce natural de glúteos y control abdominal total.
+            </p>
+            <div class="order-card__reviews" aria-label="Calificación 4.9 de 5">
+              <span class="stars">★★★★★</span>
+              <span>4.9 | 1.254 reseñas verificadas</span>
+            </div>
+            <div class="order-card__price">
+              <div>
+                <span class="order-card__price-now">$129.900</span>
+                <span class="order-card__price-old">$169.900</span>
+                <span class="order-card__price-badge">-24%</span>
+              </div>
+              <p>Incluye envío gratis + obsequio sorpresa</p>
+            </div>
+            <div class="order-card__urgency" role="status" aria-live="polite">
+              <div class="timer">Oferta termina en <span id="countdown">15:00</span></div>
+              <div class="stock">
+                <span class="stock__bar" id="stock-bar" aria-hidden="true"></span>
+                <span class="stock__text">Quedan <strong id="stock-count">18</strong> unidades listas para envío</span>
+              </div>
+            </div>
+            <p class="order-card__live" role="status">👀 <span id="live-counter">36</span> personas revisando este producto ahora mismo</p>
+            <div class="order-card__selector" aria-label="Selecciona el color">
+              <p>Color</p>
+              <div class="pill-group" role="radiogroup" id="color-selector">
+                <button class="pill is-active" type="button" data-group="color" data-value="Canela">Canela</button>
+                <button class="pill" type="button" data-group="color" data-value="Negro">Negro</button>
+                <button class="pill" type="button" data-group="color" data-value="Nude">Nude</button>
+              </div>
+            </div>
+            <div class="order-card__selector" aria-label="Selecciona la talla">
+              <p>Talla</p>
+              <div class="pill-group" role="radiogroup" id="size-selector">
+                <button class="pill" type="button" data-group="size" data-value="XS">XS</button>
+                <button class="pill is-active" type="button" data-group="size" data-value="S">S</button>
+                <button class="pill" type="button" data-group="size" data-value="M">M</button>
+                <button class="pill" type="button" data-group="size" data-value="L">L</button>
+                <button class="pill" type="button" data-group="size" data-value="XL">XL</button>
+                <button class="pill" type="button" data-group="size" data-value="2XL">2XL</button>
+              </div>
+              <button id="size-guide-trigger" class="link" type="button">Ver guía de tallas</button>
+            </div>
+            <ul class="order-card__bullets" id="beneficios-resumen">
+              <li>Compresión 360° que define cintura sin generar pliegues.</li>
+              <li>Short anti-enrollado con realce push up inmediato.</li>
+              <li>Tejido colombiano transpirable invisible bajo tu ropa.</li>
+            </ul>
+            <form class="order-card__form" id="quick-order">
+              <div class="field">
+                <label for="quick-name">Nombre completo</label>
+                <input id="quick-name" name="nombre" type="text" required placeholder="Ej: Laura Martínez" />
+              </div>
+              <div class="field">
+                <label for="quick-phone">WhatsApp o celular</label>
+                <input id="quick-phone" name="telefono" type="tel" required placeholder="Ej: 300 123 4567" />
+              </div>
+              <div class="field">
+                <label for="quick-city">Ciudad</label>
+                <input id="quick-city" name="ciudad" type="text" required placeholder="Ej: Bogotá" />
+              </div>
+              <input type="hidden" name="color" value="Canela" data-role="input-color" />
+              <input type="hidden" name="talla" value="S" data-role="input-size" />
+              <button class="btn btn--primary" type="submit">Reservar contra entrega</button>
+              <p class="order-card__legal">Sin pagos anticipados · Confirmamos en menos de 15 minutos</p>
+            </form>
+            <div class="order-card__assurance">
+              <p>✅ Cambios de talla gratis | 🔐 Sitio 100% seguro | 📦 Seguimiento en línea</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section visuals" aria-labelledby="visuals-title">
+        <div class="container visuals__layout">
+          <header class="visuals__header">
+            <h2 id="visuals-title">Lookbook fotográfico inspirado en la tienda original</h2>
+            <p>
+              Presentamos la faja en tres contextos: detalle del tejido, curvas moldeadas y acabado invisible bajo la ropa
+              para reforzar la decisión de compra por impulso.
+            </p>
+            <ul class="visuals__chips" role="list">
+              <li>Compresión colombiana certificada</li>
+              <li>Realce natural sin aplanar glúteos</li>
+              <li>Efecto segunda piel sin marcas</li>
+            </ul>
+          </header>
+          <div class="visuals__grid">
+            <figure class="visuals__card visuals__card--portrait">
+              <img
+                src="https://images.pexels.com/photos/6311593/pexels-photo-6311593.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                alt="Detalle lateral mostrando el ajuste de la faja"
+                loading="lazy"
+              />
+              <figcaption>Paneles reforzados que definen la cintura y estilizan tu torso.</figcaption>
+            </figure>
+            <figure class="visuals__card visuals__card--square">
+              <img
+                src="https://images.pexels.com/photos/6311596/pexels-photo-6311596.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+                alt="Vista trasera resaltando realce push up"
+                loading="lazy"
+              />
+              <figcaption>Estructura push up que levanta glúteos y mantiene el short en su lugar.</figcaption>
+            </figure>
+            <figure class="visuals__card visuals__card--landscape">
+              <img
+                src="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400"
+                alt="Faja invisible bajo vestido ajustado"
+                loading="lazy"
+              />
+              <figcaption>Invisible bajo vestidos ajustados para que solo se note tu nueva silueta.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section strip" aria-label="Beneficios clave">
+        <div class="container strip__grid">
+          <article>
+            <span>🔥</span>
+            <p>Resultados visibles desde el primer uso</p>
+          </article>
+          <article>
+            <span>🌬️</span>
+            <p>Control firme pero respirable todo el día</p>
+          </article>
+          <article>
+            <span>🧵</span>
+            <p>Hecha en Colombia con costuras invisibles</p>
+          </article>
+          <article>
+            <span>♻️</span>
+            <p>Cambios y devoluciones sin costo por 60 días</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="prueba" aria-labelledby="prueba-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="prueba-title">Moldeada por expertas en control y postura</h2>
+            <p>
+              Desarrollada junto a fisioterapeutas para moldear tu figura, corregir postura y brindar soporte diario sin renunciar a la comodidad.
+            </p>
+          </header>
+          <div class="feature-grid">
+            <article>
+              <h3>Compresión inteligente 360°</h3>
+              <p>Zonas estratégicas que reducen cintura y abdomen superior sin dificultad para respirar.</p>
+            </article>
+            <article>
+              <h3>Realce natural de glúteos</h3>
+              <p>Panel anatómico con efecto push up que levanta sin aplanar y moldea la cadera.</p>
+            </article>
+            <article>
+              <h3>Short anti-enrollado</h3>
+              <p>Barras de silicona y dobladillo termofusionado para permanecer en su sitio todo el día.</p>
+            </article>
+            <article>
+              <h3>Tejido fresco</h3>
+              <p>PowerMesh colombiano hipoalergénico, transpirable e imperceptible bajo tu ropa.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent" aria-labelledby="testimonios-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="testimonios-title">Resultados reales que generan confianza</h2>
+            <p>El 94% de nuestras clientas repite su compra. Mira lo que dicen quienes ya probaron la Faja Body Short Esculpidora.</p>
+          </header>
+          <div class="testimonial-grid" id="testimonios">
+            <article>
+              <header>
+                <span class="stars">★★★★★</span>
+                <h3>Marcela · Cali</h3>
+              </header>
+              <p>"Me llegó en 48 horas. Se siente firme pero cómoda, y mi cintura marcó desde el primer momento."</p>
+            </article>
+            <article>
+              <header>
+                <span class="stars">★★★★★</span>
+                <h3>Juliana · Bogotá</h3>
+              </header>
+              <p>"En el postparto fue mi mejor aliada. Me ayudó a recuperar postura y no se nota con vestidos ajustados."</p>
+            </article>
+            <article>
+              <header>
+                <span class="stars">★★★★☆</span>
+                <h3>Luisa · Medellín</h3>
+              </header>
+              <p>"El short no se enrolla y el efecto push up es inmediato. Excelente atención por WhatsApp."</p>
+            </article>
+            <article>
+              <header>
+                <span class="stars">★★★★★</span>
+                <h3>Daniela · Barranquilla</h3>
+              </header>
+              <p>"Pedí contra entrega y pagué al recibir. Pedí otra para mi mamá, los cambios son muy fáciles."</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--before-after" aria-labelledby="comparativa-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="comparativa-title">Transforma tu silueta en minutos</h2>
+            <p>Desliza para comparar el antes y después. Este es el efecto inmediato que nuestras clientas comparten tras el primer uso.</p>
+          </header>
+          <div class="before-after" aria-label="Comparación de resultados">
+            <div class="before-after__visual">
+              <img
+                src="https://images.pexels.com/photos/6311600/pexels-photo-6311600.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1100"
+                alt="Antes de usar la faja body short"
+                class="before-after__image before-after__image--before"
+                loading="lazy"
+              />
+              <div class="before-after__overlay" id="after-overlay">
+                <img
+                  src="https://images.pexels.com/photos/6311598/pexels-photo-6311598.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1100"
+                  alt="Después de usar la faja body short"
+                  class="before-after__image"
+                  loading="lazy"
+                />
+              </div>
+              <span class="before-after__label before-after__label--left">Antes</span>
+              <span class="before-after__label before-after__label--right">Después</span>
+              <div class="before-after__divider" id="before-after-divider"></div>
+            </div>
+            <label class="before-after__slider" for="before-after-range">
+              Ajusta el control para ver el cambio inmediato
+              <input type="range" id="before-after-range" min="0" max="100" value="50" />
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="beneficios" aria-labelledby="beneficios-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="beneficios-title">Por qué comprar en Universal Shoop</h2>
+            <p>Una experiencia diseñada para compras impulsivas con pago contra entrega y soporte humano.</p>
+          </header>
+          <div class="icon-cards">
+            <article>
+              <span>⚡</span>
+              <h3>Confirmación express</h3>
+              <p>Te contactamos en menos de 15 minutos para coordinar tu entrega y despejar dudas.</p>
+            </article>
+            <article>
+              <span>🚚</span>
+              <h3>Entrega en 24-72h</h3>
+              <p>Envío gratis a todo el país con seguimiento en tiempo real y pago al recibir.</p>
+            </article>
+            <article>
+              <span>🧾</span>
+              <h3>Factura y garantía</h3>
+              <p>Garantía de 30 días y cambios sin costo. Te acompañamos antes y después de tu compra.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--steps" aria-labelledby="pasos-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="pasos-title">Así de fácil es comprar contra entrega</h2>
+            <p>Sigue tres pasos sencillos y recibe tu faja sin pagar anticipos. Nuestro equipo acompaña cada etapa.</p>
+          </header>
+          <ol class="steps">
+            <li class="steps__item">
+              <span class="steps__number">1</span>
+              <h3>Reserva tu talla</h3>
+              <p>Completa tus datos y elige color y talla. Guardamos tu pedido durante 24 horas.</p>
+            </li>
+            <li class="steps__item">
+              <span class="steps__number">2</span>
+              <h3>Confirmamos contigo</h3>
+              <p>Una asesora valida la dirección por WhatsApp y despeja dudas sobre el ajuste y cuidado.</p>
+            </li>
+            <li class="steps__item">
+              <span class="steps__number">3</span>
+              <h3>Recibe y paga seguro</h3>
+              <p>Entrega express con datáfono o efectivo. Si no te encanta, gestionamos cambio inmediato.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section order" id="pedido" aria-labelledby="pedido-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="pedido-title">Haz tu pedido con pago contra entrega</h2>
+            <p>Completa el formulario y una asesora confirmará tu envío de inmediato.</p>
+          </header>
+          <form class="order__form" id="order-form" autocomplete="on">
+            <div class="order__summary">
+              <h3>Tu selección</h3>
+              <ul>
+                <li><strong>Producto:</strong> Faja Body Short Esculpidora</li>
+                <li><strong>Color:</strong> <span data-role="summary-color">Canela</span></li>
+                <li><strong>Talla:</strong> <span data-role="summary-size">S</span></li>
+                <li><strong>Precio:</strong> $129.900 (envío gratis)</li>
+              </ul>
+              <p class="order__note">Pruébala en casa antes de pagar. Cambios gratis si no te queda perfecta.</p>
+            </div>
+            <div class="order__fields">
+              <label>
+                Nombre completo
+                <input type="text" name="nombre" required placeholder="Ej: Ana Gómez" />
+              </label>
+              <label>
+                WhatsApp o celular
+                <input type="tel" name="telefono" required placeholder="Ej: 300 123 4567" />
+              </label>
+              <label>
+                Ciudad
+                <input type="text" name="ciudad" required placeholder="Ej: Medellín" />
+              </label>
+              <label>
+                Dirección de entrega
+                <input type="text" name="direccion" required placeholder="Ej: Calle 123 #45-67" />
+              </label>
+              <label>
+                Barrio o referencia
+                <input type="text" name="barrio" placeholder="Punto de referencia" />
+              </label>
+              <label class="order__textarea">
+                Comentarios
+                <textarea name="comentarios" rows="3" placeholder="Horario ideal, dudas, referencias"></textarea>
+              </label>
+              <input type="hidden" name="color" value="Canela" data-role="input-color" />
+              <input type="hidden" name="talla" value="S" data-role="input-size" />
+              <button class="btn btn--primary" type="submit">Confirmar pedido contra entrega</button>
+              <p class="order__legal">Responderemos por WhatsApp o llamada para validar tus datos y coordinar el envío.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="container">
+          <header class="section__header">
+            <h2 id="faq-title">Preguntas frecuentes</h2>
+            <p>Compra con la tranquilidad de recibir acompañamiento en todo momento.</p>
+          </header>
+          <div class="faq__list">
+            <article class="accordion">
+              <button class="accordion__trigger" type="button" aria-expanded="false">¿Puedo pagar con tarjeta al recibir?</button>
+              <div class="accordion__content">
+                <p>Sí, contamos con datáfono en las principales ciudades. También puedes pagar en efectivo sin costo adicional.</p>
+              </div>
+            </article>
+            <article class="accordion">
+              <button class="accordion__trigger" type="button" aria-expanded="false">¿Y si la talla no me queda?</button>
+              <div class="accordion__content">
+                <p>Gestionamos cambios gratis por 60 días. Nuestro equipo coordina recogida y nuevo envío sin trámites.</p>
+              </div>
+            </article>
+            <article class="accordion">
+              <button class="accordion__trigger" type="button" aria-expanded="false">¿Cuánto tarda el envío?</button>
+              <div class="accordion__content">
+                <p>Despachamos de lunes a sábado. Recibirás tu pedido entre 24 y 72 horas dependiendo de la ciudad.</p>
+              </div>
+            </article>
+            <article class="accordion">
+              <button class="accordion__trigger" type="button" aria-expanded="false">¿Cómo cuido mi faja?</button>
+              <div class="accordion__content">
+                <p>Lava a mano con agua fría y jabón suave. Seca a la sombra y evita planchar para conservar la compresión.</p>
+              </div>
+            </article>
+            <article class="accordion">
+              <button class="accordion__trigger" type="button" aria-expanded="false">¿Puedo pagar una vez que la pruebe?</button>
+              <div class="accordion__content">
+                <p>Sí. Puedes abrir tu paquete, verificar la talla y pagar únicamente si quedas satisfecha. Tu comodidad es nuestra prioridad.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__layout">
+        <div class="footer__cta">
+          <h2>¿Lista para tu nueva silueta?</h2>
+          <p>Reserva hoy con pago contra entrega y recibe una bolsa organizadora de regalo.</p>
+          <button class="btn btn--primary" id="footer-cta">Reservar ahora</button>
+        </div>
+        <div class="footer__meta">
+          <p>© 2024 Universal Shoop. Todos los derechos reservados.</p>
+          <p>
+            Soporte: <a href="mailto:hola@universalshoop.com">hola@universalshoop.com</a> ·
+            <a href="https://wa.me/573001112233" target="_blank" rel="noopener">WhatsApp</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="mobile-bar" id="mobile-bar" aria-hidden="true">
+      <div>
+        <p>Faja Body Short</p>
+        <span>$129.900</span>
+      </div>
+      <button class="btn btn--primary" id="mobile-cta">Pedir ahora</button>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="assertive" hidden></div>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/573001112233?text=Hola%20Universal%20Shoop%2C%20quiero%20mi%20Faja%20Body%20Short%20con%20pago%20contra%20entrega"
+      target="_blank"
+      rel="noopener"
+      aria-label="Hablar con una asesora por WhatsApp"
+    >
+      <span>💬</span>
+      <strong>Asesoría inmediata</strong>
+    </a>
+
+    <section class="size-guide" id="size-guide" hidden>
+      <div class="size-guide__content" role="dialog" aria-modal="true" aria-labelledby="size-guide-title">
+        <header class="size-guide__header">
+          <h2 id="size-guide-title">Guía de tallas precisa</h2>
+          <button type="button" id="close-size-guide" aria-label="Cerrar guía">✕</button>
+        </header>
+        <p>Mide tu cintura y cadera para elegir la talla perfecta. Si dudas, selecciona la mayor y solicita asesoría.</p>
+        <div class="size-guide__grid">
+          <article>
+            <h3>Cintura</h3>
+            <p>Ubica la cinta en la parte más angosta y ajusta sin apretar.</p>
+          </article>
+          <article>
+            <h3>Cadera</h3>
+            <p>Rodea la parte más prominente de tus glúteos manteniendo la cinta paralela al piso.</p>
+          </article>
+          <div class="size-guide__table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Talla</th>
+                  <th>Cintura (cm)</th>
+                  <th>Cadera (cm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>XS</td><td>60 - 65</td><td>84 - 90</td></tr>
+                <tr><td>S</td><td>66 - 72</td><td>91 - 97</td></tr>
+                <tr><td>M</td><td>73 - 79</td><td>98 - 104</td></tr>
+                <tr><td>L</td><td>80 - 87</td><td>105 - 112</td></tr>
+                <tr><td>XL</td><td>88 - 96</td><td>113 - 120</td></tr>
+                <tr><td>2XL</td><td>97 - 106</td><td>121 - 129</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
